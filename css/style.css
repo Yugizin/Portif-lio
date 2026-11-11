@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.secao {
+  padding: 60px 0;
+}
+
+.bg-claro {
+  background-color: #f2f2f2;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #212529;
+}
+
+.caixa {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  height: 100%;
+}
+
+.lista-habilidades {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-habilidades li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.lista-habilidades li:last-child {
+  border-bottom: none;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icone-social {
+  font-size: 50px;
+  color: #212529;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.icone-social:hover {
+  color: #0d6efd;
+  transform: scale(1.15);
+}
+
+#segredo {
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .secao {
+    padding: 40px 0;
+  }
+  .titulo {
+    font-size: 24px;
+  }
+  .icone-social {
+    font-size: 40px;
+  }
+}
